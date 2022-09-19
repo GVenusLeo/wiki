@@ -41,6 +41,10 @@ export default {
         link: "/software-engineering/",
       },
       {
+        text: "数学与统计",
+        link: "/mathematics-statistics/"
+      },
+      {
         text: "CS 基础",
         items: [{ text: "数据结构", link: "/cs-base/data-structure/01" }],
       },
@@ -62,6 +66,18 @@ export default {
             { text: "01 - 软件工程概述", link: "/software-engineering/01" },
           ],
         },
+      ],
+      "/mathematics-statistics/": [
+        {
+          text: "数学与统计",
+          collapsible: true,
+          items: [
+            {text: "01 - 映射与函数", link: "/mathematics-statistics/advanced-mathematics/01"},
+            {text: "02 - 数列的极限", link: "/mathematics-statistics/advanced-mathematics/02"},
+            {text: "03 - 函数的极限", link: "/mathematics-statistics/advanced-mathematics/03"},
+            {text: "04 - 无穷大与无穷小", link: "/mathematics-statistics/advanced-mathematics/04"},
+          ]
+        }
       ],
       "/cs-base/data-structure/": [
         {
