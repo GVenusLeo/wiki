@@ -33,6 +33,10 @@ export default {
         link: "/about/",
       },
       {
+        text: "软件工程",
+        link: "/software-engineering/"
+      },
+      {
         text: "CS 基础",
         items: [{ text: "数据结构", link: "/cs-base/data-structure/01" }],
       },
@@ -43,6 +47,14 @@ export default {
           text: "数据结构",
           items: [
             { text: "01 - 数据结构导论", link: "/cs-base/data-structure/01" },
+          ]
+        }
+      ],
+      "/software-engineering/": [
+        {
+          text: "软件工程",
+          items: [
+            { text: "01 - 软件工程概述", link: "/software-engineering/01" },
           ]
         }
       ]
