@@ -69,7 +69,7 @@ export default {
       ],
       "/mathematics-statistics/": [
         {
-          text: "数学与统计",
+          text: "高等数学(上)",
           collapsible: true,
           items: [
             {text: "01 - 映射与函数", link: "/mathematics-statistics/advanced-mathematics/01"},
