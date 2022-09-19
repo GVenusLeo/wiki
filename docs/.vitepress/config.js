@@ -33,8 +33,12 @@ export default {
         link: "/about/",
       },
       {
+        text: "算法",
+        link: "/algorithm/",
+      },
+      {
         text: "软件工程",
-        link: "/software-engineering/"
+        link: "/software-engineering/",
       },
       {
         text: "CS 基础",
@@ -42,22 +46,31 @@ export default {
       },
     ],
     sidebar: {
-      "/cs-base/data-structure/": [
+      "/algorithm/": [
         {
-          text: "数据结构",
+          text: "算法",
           items: [
-            { text: "01 - 数据结构导论", link: "/cs-base/data-structure/01" },
-          ]
-        }
+            { text: "01 - 秦九韶算法", link: "/algorithm/01" },
+            { text: "02 - 二分法", link: "/algorithm/02" },
+          ],
+        },
       ],
       "/software-engineering/": [
         {
           text: "软件工程",
           items: [
             { text: "01 - 软件工程概述", link: "/software-engineering/01" },
-          ]
-        }
-      ]
+          ],
+        },
+      ],
+      "/cs-base/data-structure/": [
+        {
+          text: "数据结构",
+          items: [
+            { text: "01 - 数据结构导论", link: "/cs-base/data-structure/01" },
+          ],
+        },
+      ],
     },
   },
   markdown: {
