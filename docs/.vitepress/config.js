@@ -42,7 +42,11 @@ export default {
       },
       {
         text: "数学与统计",
-        link: "/mathematics-statistics/"
+        link: "/mathematics-statistics/",
+      },
+      {
+        text: "工具与技巧",
+        link: "/tools-tips/",
       },
       {
         text: "CS 基础",
@@ -67,17 +71,39 @@ export default {
           ],
         },
       ],
+      "/tools-tips/": [
+        {
+          text: "工具与技巧",
+          items: [
+            { text: "LaTeX 技巧", link: "/tools-tips/latex" },
+            { text: "Git 规范", link: "/tools-tips/git" },
+            { text: "Python 转换文件格式", link: "/tools-tips/python-format" },
+          ],
+        },
+      ],
       "/mathematics-statistics/": [
         {
           text: "高等数学(上)",
           collapsible: true,
           items: [
-            {text: "01 - 映射与函数", link: "/mathematics-statistics/advanced-mathematics/01"},
-            {text: "02 - 数列的极限", link: "/mathematics-statistics/advanced-mathematics/02"},
-            {text: "03 - 函数的极限", link: "/mathematics-statistics/advanced-mathematics/03"},
-            {text: "04 - 无穷大与无穷小", link: "/mathematics-statistics/advanced-mathematics/04"},
-          ]
-        }
+            {
+              text: "01 - 映射与函数",
+              link: "/mathematics-statistics/advanced-mathematics/01",
+            },
+            {
+              text: "02 - 数列的极限",
+              link: "/mathematics-statistics/advanced-mathematics/02",
+            },
+            {
+              text: "03 - 函数的极限",
+              link: "/mathematics-statistics/advanced-mathematics/03",
+            },
+            {
+              text: "04 - 无穷大与无穷小",
+              link: "/mathematics-statistics/advanced-mathematics/04",
+            },
+          ],
+        },
       ],
       "/cs-base/data-structure/": [
         {

@@ -4,7 +4,7 @@
 
 我使用的教材主要有：
 
-- [《高等数学》_第七版_上册_同济大学数学系](https://book.douban.com/subject/26311133/)
-- [《高等数学》_第七版_下册_同济大学数学系](https://book.douban.com/subject/26628523/)
-- [《工程数学 线性代数》_第六版_同济大学数学系](https://book.douban.com/subject/26646158/)
-- [《概率论与数理统计》_第四版_浙江大学](https://book.douban.com/subject/3165271/)
+- [《高等数学》-第七版上册-同济大学数学系](https://book.douban.com/subject/26311133/)
+- [《高等数学》-第七版下册-同济大学数学系](https://book.douban.com/subject/26628523/)
+- [《工程数学 线性代数》-第六版-同济大学数学系](https://book.douban.com/subject/26646158/)
+- [《概率论与数理统计》-第四版-浙江大学](https://book.douban.com/subject/3165271/)
