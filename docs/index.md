@@ -5,6 +5,9 @@ hero:
   name: 应许之地
   text: liuyu.xin 的 wiki
   tagline: 技术学习、阅读思考、工具技巧
+  image:
+    src: /promiseland.png
+    alt: 应许之地
   actions:
     - theme: brand
       text: 订阅周报

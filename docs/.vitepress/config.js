@@ -7,10 +7,28 @@ export default {
   base: "/",
   ignoreDeadLinks: false,
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/liuyuxin.png" }]],
+  head: [
+    ["link", { rel: "icon", href: "/logo.png" }],
+    ["meta", { property: "og:type", content: "website" }],
+    ["meta", { property: "og:title", content: "应许之地" }],
+    [
+      "meta",
+      { property: "og:image", content: "https://wiki.liuyu.xin/og.png" },
+    ],
+    ["meta", { property: "og:url", content: "https://wiki.liuyu.xin" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content: "liuyu.xin 的 wiki：技术学习、阅读思考、工具技巧",
+      },
+    ],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
+    ["meta", { name: "twitter:site", content: "@liuyu_xin" }],
+  ],
   themeConfig: {
     siteTitle: "应许之地",
-    logo: "/liuyuxin.png",
+    logo: "/logo.png",
     lastUpdatedText: "更新",
     async transformHead(ctx) {},
     outline: [2, 3],
@@ -27,6 +45,14 @@ export default {
       message: "Released under the CC BY-NC-SA 4.0 License.",
       copyright: "Copyright © 2022 liuyu.xin",
     },
+    // algolia: {
+    //   appId: 'CNJ5CV6WU5',
+    //   apiKey: '09e66781efeb3c71b39b68270cadfa5e',
+    //   indexName: 'MyWikiSearch',
+    //   searchParameters: {
+    //     facetFilters: ['tags:cn']
+    //   }
+    // },
     nav: [
       {
         text: "关于",

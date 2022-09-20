@@ -8,14 +8,96 @@
   --vp-font-family-mono: "JetBrains Mono", "Noto Serif SC", ui-monospace,
     SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
+}
 
+:root {
   /* 用 Logo 提取的主题色替换 VitePress 原主题绿色 */
-  --vp-c-green: #548bc4;
-  --vp-c-green-light: #94b4da;
-  --vp-c-green-lighter: #9ec4e7;
-  --vp-c-green-dark: #3c6996;
-  --vp-c-green-darker: #3e6082;
-  --vp-c-green-dimm-1: rgba(84, 139, 196, 0.5);
-  --vp-c-green-dimm-2: rgba(84, 139, 196, 0.25);
-  --vp-c-green-dimm-3: rgba(84, 139, 196, 0.05);
+  --vp-c-brand: #6562b9;
+  --vp-c-brand-light: #7976c4;
+  --vp-c-brand-lighter: #9290d6;
+  --vp-c-brand-lightest: #aeace6;
+  --vp-c-brand-dark: #5552ab;
+  --vp-c-brand-darker: #3e3b9c;
+  --vp-c-brand-dimm: rgba(101, 98, 185, 0.16);
+}
+
+:root {
+  --vp-button-brand-border: var(--vp-c-brand-light);
+  --vp-button-brand-text: var(--vp-c-text-dark-1);
+  --vp-button-brand-bg: var(--vp-c-brand);
+  --vp-button-brand-hover-border: var(--vp-c-brand-light);
+  --vp-button-brand-hover-text: var(--vp-c-text-dark-1);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+  --vp-button-brand-active-border: var(--vp-c-brand-light);
+  --vp-button-brand-active-text: var(--vp-c-text-dark-1);
+  --vp-button-brand-active-bg: var(--vp-button-brand-bg);
+}
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #3d6bdc 30%,
+    #e0417b
+  );
+
+  --vp-home-hero-image-background-image: linear-gradient(
+    -5deg,
+    #44307d 50%,
+    #e1aad2 50%
+  );
+  --vp-home-hero-image-filter: blur(25px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(36px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(49px);
+  }
+}
+
+:root {
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+}
+
+.dark {
+  --vp-custom-block-tip-border: var(--vp-c-brand);
+  --vp-custom-block-tip-text: var(--vp-c-brand-lightest);
+  --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+}
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand) !important;
+}
+
+.dark .vp-doc a,
+.dark .vp-doc a > code,
+.dark .VPNavBarMenuLink.VPNavBarMenuLink:hover,
+.dark .VPNavBarMenuLink.VPNavBarMenuLink.active,
+.dark .link.link:hover,
+.dark .link.link.active,
+.dark .edit-link-button.edit-link-button,
+.dark .pager-link .title {
+  color: var(--vp-c-brand-lighter);
+}
+
+.dark .vp-doc a:hover,
+.dark .vp-doc a > code:hover {
+  color: var(--vp-c-brand-lightest);
+  opacity: 1;
+}
+
+.dark .vp-doc .custom-block a {
+  transition: color 0.25s;
+}
+
+.content img {
+  border-radius: 10px;
 }
