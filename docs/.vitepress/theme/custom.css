@@ -8,4 +8,14 @@
   --vp-font-family-mono: "JetBrains Mono", "Noto Serif SC", ui-monospace,
     SFMono-Regular, "SF Mono", Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
+
+  /* 用 Logo 提取的主题色替换 VitePress 原主题绿色 */
+  --vp-c-green: #548bc4;
+  --vp-c-green-light: #94b4da;
+  --vp-c-green-lighter: #9ec4e7;
+  --vp-c-green-dark: #3c6996;
+  --vp-c-green-darker: #3e6082;
+  --vp-c-green-dimm-1: rgba(84, 139, 196, 0.5);
+  --vp-c-green-dimm-2: rgba(84, 139, 196, 0.25);
+  --vp-c-green-dimm-3: rgba(84, 139, 196, 0.05);
 }
