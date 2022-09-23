@@ -42,7 +42,7 @@ export default {
       next: "下一篇",
     },
     footer: {
-      message: "Released under the CC BY-NC-SA 4.0 License.",
+      message: "Released under the CC-BY-SA-4.0 License.",
       copyright: "Copyright © 2022 liuyu.xin",
     },
     // algolia: {
