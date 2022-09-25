@@ -76,7 +76,10 @@ export default {
       },
       {
         text: "CS 基础",
-        items: [{ text: "数据结构", link: "/cs-base/data-structure/01" }],
+        items: [
+          { text: "C 程序设计", link: "/cs-base/c-language/01" },
+          { text: "数据结构", link: "/cs-base/data-structure/01" },
+        ],
       },
     ],
     sidebar: {
@@ -136,6 +139,23 @@ export default {
           text: "数据结构",
           items: [
             { text: "01 - 数据结构导论", link: "/cs-base/data-structure/01" },
+          ],
+        },
+      ],
+      "/cs-base/c-language/": [
+        {
+          text: "C 程序设计",
+          items: [
+            { text: "01 - C 语言导论", link: "/cs-base/c-language/01" },
+            { text: "02 - 数据类型", link: "/cs-base/c-language/02" },
+            { text: "03 - 输入与输出", link: "/cs-base/c-language/03" },
+            { text: "04 - 选择语句", link: "/cs-base/c-language/04" },
+            { text: "05 - 循环语句", link: "/cs-base/c-language/05" },
+            { text: "06 - 数组", link: "/cs-base/c-language/06" },
+            { text: "07 - 函数", link: "/cs-base/c-language/07" },
+            { text: "08 - 指针", link: "/cs-base/c-language/08" },
+            { text: "09 - 自定义数据类型", link: "/cs-base/c-language/09" },
+            { text: "10 - 文件操作", link: "/cs-base/c-language/10" },
           ],
         },
       ],
