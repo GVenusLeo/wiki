@@ -216,9 +216,9 @@
     "@vue/shared" "3.2.39"
 
 "@vue/devtools-api@^6.2.1":
-  version "6.2.1"
-  resolved "https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.2.1.tgz#6f2948ff002ec46df01420dfeff91de16c5b4092"
-  integrity sha512-OEgAMeQXvCoJ+1x8WyQuVZzFo0wcyCmUR3baRVLmKBo1LmYZWMlRiXlux5jd0fqVJu6PfDbOrZItVqUEzLobeQ==
+  version "6.3.0"
+  resolved "https://registry.npmmirror.com/@vue/devtools-api/-/devtools-api-6.3.0.tgz#2cb4cbf012e704f467f5ba7e4092f09fc141edac"
+  integrity sha512-OfjtreoF3LtHmte3TrWSoZcyL4XWBL5+dTnCARuJZzTCYuaaO29PGMKCKdmXi4CZ0SiN0Exz1IGSo2S5BgDwEQ==
 
 "@vue/reactivity-transform@3.2.39":
   version "3.2.39"
@@ -518,6 +518,11 @@ nprogress@^0.2.0:
   resolved "https://registry.npmmirror.com/nprogress/-/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
   integrity sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==
 
+package@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/package/-/package-1.0.1.tgz#d25a1f99e2506dcb27d6704b83dca8a312e4edcc"
+  integrity sha512-g6xZR6CO7okjie83sIRJodgGvaXqymfE5GLhN8N2TmZGShmHc/V23hO/vWbdnuy3D81As3pfovw72gGi42l9qA==
+
 path-parse@^1.0.7:
   version "1.0.7"
   resolved "https://registry.npmmirror.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
@@ -600,9 +605,9 @@ vite@^3.1.0:
     fsevents "~2.3.2"
 
 vitepress@^1.0.0-alpha.15:
-  version "1.0.0-alpha.15"
-  resolved "https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.15.tgz#26ff8a8b5bae298ac6e47e5fec20d873a3a5960a"
-  integrity sha512-+pHJQCpnv0wVgLRyonisrj7Y77PVhbns2nTLxV9GkH3T+RTY/W2JmRatzBg5WciMaPyO8Ms6F3YElO5PULVv3w==
+  version "1.0.0-alpha.16"
+  resolved "https://registry.npmmirror.com/vitepress/-/vitepress-1.0.0-alpha.16.tgz#792936bdbece6e4d8c88598e09a063b52dd81f24"
+  integrity sha512-IXW3jA2Y9BsoYlpVuVcAy2XEu1wuoq2xmPvSDPVFrh8HV+oVpuvbPUCHqG6smEcu86xw3g4JjreqAwPlpPn6gw==
   dependencies:
     "@docsearch/css" "^3.2.1"
     "@docsearch/js" "^3.2.1"
