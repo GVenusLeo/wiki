@@ -45,6 +45,10 @@ export default {
       message: "Released under the CC-BY-SA-4.0 License.",
       copyright: "Copyright © 2022 liuyu.xin",
     },
+    editLink: {
+      pattern: 'https://github.com/gvenusleo/wiki/tree/main/docs/:path',
+      text: '在 Github 上编辑此页',
+    },
     // algolia: {
     //   appId: 'CNJ5CV6WU5',
     //   apiKey: '09e66781efeb3c71b39b68270cadfa5e',
