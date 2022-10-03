@@ -5,16 +5,16 @@ hero:
   name: 应许之地
   text: liuyu.xin 的 wiki
   tagline: 技术学习、阅读思考、工具技巧
-  image:
-    src: /promiseland.png
-    alt: 应许之地
+  # image:
+  #   src: /promiseland.png
+  #   alt: 应许之地
   actions:
     - theme: brand
-      text: 订阅周报
-      link: https://promiseland.zhubai.love
+      text: 即刻关注
+      link: https://m.okjike.com/users/561f7160-d58c-4156-ab66-a103c9955e52
     - theme: alt
-      text: 保持联系
-      link: https://muselink.cc/gvenusleo
+      text: 每日常新
+      link: https://day.liuyu.xin
 
 features:
   - icon: 

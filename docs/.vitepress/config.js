@@ -101,6 +101,7 @@ export default {
           text: "软件工程",
           items: [
             { text: "01 - 软件工程概述", link: "/software-engineering/01" },
+            { text: "02 - 软件过程", link: "/software-engineering/02" },
           ],
         },
       ],
