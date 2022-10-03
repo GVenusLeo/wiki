@@ -13,5 +13,6 @@ otf2ttf MyFont.otf
 from PIL import Image
 
 a = Image.open('a.png')
+a = a.convert('RGB')
 a.save('a.jpg')
 ```
