@@ -63,6 +63,10 @@ export default {
         link: "/about/",
       },
       {
+        text: "阅读",
+        link: "/read/",
+      },
+      {
         text: "算法",
         link: "/algorithm/",
       },
@@ -87,6 +91,15 @@ export default {
       },
     ],
     sidebar: {
+      "/read/": [
+        {
+          text: "阅读",
+          items: [
+            { text: "超越金融：索罗斯的哲学", link: "/read/02" },
+            { text: "当尼采哭泣", link: "/read/01" },
+          ],
+        }
+      ],
       "/algorithm/": [
         {
           text: "算法",

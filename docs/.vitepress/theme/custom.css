@@ -101,3 +101,7 @@
 .content img {
   border-radius: 10px;
 }
+
+.content P {
+  text-align: justify;
+}
