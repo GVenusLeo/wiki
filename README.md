@@ -10,7 +10,7 @@
 - 老家贵州，现在北京
 - 活跃在即刻：[即刻 - liuyu.xin](https://m.okjike.com/users/561f7160-d58c-4156-ab66-a103c9955e52)
 - 有一个日更的博客：[日新](https://day.liuyu.xin)
-- 联系我：[MuseLink 数字名片](https://jike.city/gvenusleo)
+- 联系我：[Yellow Page](https://jike.city/gvenusleo)
 
 ## 🪁 关于本站
 
