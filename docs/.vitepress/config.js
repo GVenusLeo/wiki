@@ -46,8 +46,8 @@ export default {
       copyright: "Copyright © 2022 liuyu.xin",
     },
     editLink: {
-      pattern: 'https://github.com/gvenusleo/wiki/tree/main/docs/:path',
-      text: '在 Github 上编辑此页',
+      pattern: "https://github.com/gvenusleo/wiki/tree/main/docs/:path",
+      text: "在 Github 上编辑此页",
     },
     // algolia: {
     //   appId: 'CNJ5CV6WU5',
@@ -98,7 +98,7 @@ export default {
             { text: "超越金融：索罗斯的哲学", link: "/read/02" },
             { text: "当尼采哭泣", link: "/read/01" },
           ],
-        }
+        },
       ],
       "/algorithm/": [
         {
@@ -157,6 +157,7 @@ export default {
           text: "数据结构",
           items: [
             { text: "01 - 数据结构导论", link: "/cs-base/data-structure/01" },
+            { text: "02 - 线性表", link: "/cs-base/data-structure/02" },
           ],
         },
       ],
