@@ -104,8 +104,11 @@ export default {
         {
           text: "算法",
           items: [
-            { text: "01 - 秦九韶算法", link: "/algorithm/01" },
-            { text: "02 - 二分法", link: "/algorithm/02" },
+            { text: "秦九韶算法", link: "/algorithm/horner-method" },
+            { text: "二分法", link: "/algorithm/dichotomy" },
+            { text: "数制转换", link: "/algorithm/numeric-conversion" },
+            { text: "括号匹配检验", link: "/algorithm/bracket-matching" },
+            { text: "汉诺塔问题", link: "/algorithm/hanoi-tower" },
           ],
         },
       ],
@@ -158,6 +161,7 @@ export default {
           items: [
             { text: "01 - 数据结构导论", link: "/cs-base/data-structure/01" },
             { text: "02 - 线性表", link: "/cs-base/data-structure/02" },
+            { text: "03 - 栈和队列", link: "/cs-base/data-structure/03"},
           ],
         },
       ],

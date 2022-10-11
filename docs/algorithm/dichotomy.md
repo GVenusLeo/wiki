@@ -5,7 +5,7 @@ head:
       href: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css
 ---
 
-# 02 - 二分法
+# 二分法
 
 ## 问题
 
@@ -13,7 +13,7 @@ head:
 
 ## 解答
 
-### 方法 1：暴力循环
+### 1 暴力循环
 
 ```python
 def solution1(n: int, p: list[int], x: int) -> int:
@@ -31,7 +31,7 @@ def solution1(n: int, p: list[int], x: int) -> int:
     return -1
 ```
 
-### 方法 2：二分法查找
+### 2 二分法查找
 
 ```python
 def solution2(n: int, p: list[int], x: int) -> int:
